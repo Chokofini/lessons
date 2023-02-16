@@ -37,15 +37,18 @@ body {
 .start__image {
 	max-width: 100%;
 	margin-bottom: 80px;
+	border-radius: 5px;
 }
 .images, .pictures {
 	font-size: 0;
 	margin-bottom: 80px;
+	border-radius: 5px;
+
 }
 .image {
 	max-width: 100%;
 }
-.image__2 {
+.image__2, .image__5 {
 	margin-right: 30px;
 }
 [class*="__wrapper"]{
@@ -58,17 +61,18 @@ body {
 .image__4 {
 	max-width: 100%;
 	margin-bottom: 100px;
+	border-radius: 0px;
 }
-.image__5 {
-	margin-right: 30px;
-	margin-left: 100px;
+.pictures {
+	border-radius: 5px;
+	margin: 0 15px 80px 15px;
 }
+
 [class*="praktice"]{
 	max-width: 1440px;
 	margin: 0 auto;
 }
 .praktice-block {
-	font-family: "Poppins", sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	color: red;
