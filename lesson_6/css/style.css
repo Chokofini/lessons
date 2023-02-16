@@ -48,7 +48,7 @@ body {
 .image__2 {
 	margin-right: 30px;
 }
-[class*="__continue"]{
+[class*="__wrapper"]{
 	max-width: 1440px;
 	margin: 0 auto;
 }
