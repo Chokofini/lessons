@@ -43,9 +43,8 @@ body {
 	font-size: 0;
 	margin-bottom: 80px;
 	border-radius: 5px;
-
 }
-.image {
+.image, .pictures {
 	max-width: 100%;
 }
 .image__2, .image__5 {
