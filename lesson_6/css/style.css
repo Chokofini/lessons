@@ -45,7 +45,6 @@ p{
 .images, .pictures {
 	font-size: 0;
 	margin-bottom: 80px;
-	border-radius: 5px;
 	max-width: 1240px;
 }
 .image {
@@ -56,6 +55,7 @@ p{
 }
 .image__2, .image__3, .image__5, .image__6 {
 	max-width: 100%;
+	border-radius: 5px;
 }
 [class*="__wrapper"]{
 	max-width: 1440px;
