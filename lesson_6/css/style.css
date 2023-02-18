@@ -18,6 +18,9 @@ body {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
+p{
+	margin-bottom: 30px;
+}
 .start__text-block, .continue__text-block {
 	max-width: 816px;
 	margin: 0 auto 80px;
@@ -43,12 +46,16 @@ body {
 	font-size: 0;
 	margin-bottom: 80px;
 	border-radius: 5px;
+	max-width: 1240px;
 }
-.image, .pictures {
+.image {
 	max-width: 100%;
 }
 .image__2, .image__5 {
 	margin-right: 30px;
+}
+.image__2, .image__3, .image__5, .image__6 {
+	max-width: 100%;
 }
 [class*="__wrapper"]{
 	max-width: 1440px;
@@ -64,9 +71,11 @@ body {
 }
 .pictures {
 	border-radius: 5px;
-	margin: 0 15px 80px 15px;
+	margin: 0 auto;
 }
-
+.paragraph {
+	margin-top: 100px;
+}
 [class*="praktice"]{
 	max-width: 1440px;
 	margin: 0 auto;
