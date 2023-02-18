@@ -54,8 +54,8 @@ p{
 	margin-right: 30px;
 }
 .image__2, .image__3, .image__5, .image__6 {
-	max-width: 100%;
 	border-radius: 5px;
+	max-width: 100%;
 }
 [class*="__wrapper"]{
 	max-width: 1440px;
